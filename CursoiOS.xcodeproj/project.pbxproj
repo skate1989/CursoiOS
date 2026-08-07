@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CDA6B99830292E8200BA4CBB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CDA6B99730292E8200BA4CBB /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CDA6B9523025918000BA4CBB /* CursoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA6B99830292E8200BA4CBB /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = CursoiOS;
 			packageProductDependencies = (
+				CDA6B99730292E8200BA4CBB /* SDWebImageSwiftUI */,
 			);
 			productName = CursoiOS;
 			productReference = CDA6B9523025918000BA4CBB /* CursoiOS.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = CDA6B9493025918000BA4CBB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CDA6B99630292E8200BA4CBB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CDA6B9533025918000BA4CBB /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDA6B99630292E8200BA4CBB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDA6B99730292E8200BA4CBB /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDA6B99630292E8200BA4CBB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CDA6B94A3025918000BA4CBB /* Project object */;
 }
