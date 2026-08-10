@@ -11,11 +11,7 @@ import SwiftUI
 struct CursoiOSApp: App {
     var body: some Scene {
         WindowGroup {
-<<<<<<< HEAD
-            ContentView()
-=======
             MainView()
->>>>>>> 8badede (Initial Commit)
         }
     }
 }
